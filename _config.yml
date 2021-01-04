@@ -26,7 +26,7 @@ plugins:
 
 author:
   name: "浅井 敏之"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.png"
   bio: "Software Engineer. I love CODE."
   links:
     - label: "Twitter"
