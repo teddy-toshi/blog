@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.cs text eol=crlf diff=csharp
+*.tt text eol=crlf diff=csharp
+*.sln text eol=crlf
