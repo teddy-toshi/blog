@@ -1,0 +1,70 @@
+locale: "ja-JP"
+title: "blog.asai.one"
+description: ".Netなどを嗜む"
+twitter_username: teddy_toshi
+github_username: teddy-toshi
+minimal_mistakes_skin: default
+search: true
+
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Tokyo
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+author:
+  name: "浅井 敏之"
+  avatar: "/assets/images/bio-photo.png"
+  bio: "Software Engineer. I love CODE."
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/teddy_toshi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/teddy-toshi"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/teddy_toshi"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/teddy-toshi"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+tag_archive:
+  type: liquid
+  path: /tags/
