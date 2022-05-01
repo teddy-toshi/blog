@@ -1,7 +1,6 @@
 ---
 title: "C#のコーディング規約"
 last_modified_at: 2022-05-01T09:00:00+09:00
-author: teddy-toshi
 tags:
   - C#
   - 規約
