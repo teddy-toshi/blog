@@ -11,13 +11,3 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
-
-[*.{cs,tt}]
-charset = utf-8-bom
-end_of_line = crlf
-indent_size = 4
-
-[*.sln]
-charset = utf-8-bom
-end_of_line = crlf
-indent_size = 2
