@@ -1,0 +1,24 @@
+{
+  "gitmoji.onlyUseAdditionalEmojis": true,
+  "gitmoji.additionalEmojis": [
+    { "emoji":"👍", "code":":+1:", "description":"Improve features."},
+    { "emoji":"✨", "code":":sparkles:", "description":"Introduce new features."},
+    { "emoji":"🐛", "code":":bug:", "description":"Fix a bug."},
+    { "emoji":"🥅", "code":":goal_net:", "description":"Catch errors."},
+    { "emoji":"♻️", "code":":recycle:", "description":"Refactor code."},
+    { "emoji":"🚨", "code":":rotating_light:", "description":"Fix compiler / linter warnings."},
+    { "emoji":"🎨", "code":":art:", "description":"Improve structure / format of the code."},
+    { "emoji":"⚡️", "code":":zap:", "description":"Improve performance."},
+    { "emoji":"📝", "code":":memo:", "description":"Add or update documentation."},
+    { "emoji":"🔧", "code":":wrench:", "description":"Add or update configuration files."},
+    { "emoji":"🍱", "code":":bento:", "description":"Add or update assets."},
+    { "emoji":"🔊", "code":":loud_sound:", "description":"Add or update logs."},
+    { "emoji":"✅", "code":":white_check_mark:", "description":"Add, update, or pass tests."},
+    { "emoji":"🚚", "code":":truck:", "description":"Move or rename resources."},
+    { "emoji":"🔥", "code":":fire:", "description":"Remove code or files."},
+    { "emoji":"⏪️", "code":":rewind:", "description":"Revert changes."},
+    { "emoji":"🚧", "code":":construction:", "description":"Work in progress."},
+    { "emoji":"🚑️", "code":":ambulance:", "description":"Critical hotfix."},
+    { "emoji":"🎉", "code":":tada:", "description":"Begin a project."},
+  ]
+}
